@@ -54,7 +54,7 @@ public class Demo41MainActivity extends AppCompatActivity {
         product.setDescription(editText2.getText().toString());
 
         Retrofit retrofit= new Retrofit.Builder()
-                .baseUrl("https://batdongsanabc.000webhostapp.com/mob403lab4/")
+                .baseUrl("https://duan1cuaducmtph20223.000webhostapp.com/mob403lab4/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         InterfaceInsert interfaceInsert= retrofit.create(InterfaceInsert.class);
@@ -76,7 +76,7 @@ public class Demo41MainActivity extends AppCompatActivity {
     ArrayList<Product> list;
     void selectRetrofit(){
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://batdongsanabc.000webhostapp.com/mob403lab4/")
+                .baseUrl("https://duan1cuaducmtph20223.000webhostapp.com/mob403lab4/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         InterfaceSelect interfaceSelect = retrofit.create(InterfaceSelect.class);

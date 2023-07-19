@@ -7,7 +7,7 @@ import retrofit2.http.POST;
 
 public interface InterfaceInsert {
     @FormUrlEncoded
-    @POST("create_product.php")
+    @POST("create_product1.php")
     Call<ServerResI> insertData(
             @Field("name") String name,
             @Field("price") String price,
