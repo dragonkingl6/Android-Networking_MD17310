@@ -5,7 +5,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,9 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Networking_MD17310"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".buoi5.Demo51MainActivity"
+            android:name=".buoi6.Demo61MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -28,13 +28,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".buoi4.Demo41MainActivity"
+            android:name=".buoi5.Demo51MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
 
 
+        </activity>
+        <activity
+            android:name=".buoi4.Demo41MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
             android:name=".buoi3.Demo31MainActivity"
