@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".buoi6.Demo61MainActivity"
+            android:name=".buoi7.Demo71MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -28,13 +28,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".buoi5.Demo51MainActivity"
+            android:name=".buoi6.Demo61MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
 
 
+        </activity>
+        <activity
+            android:name=".buoi5.Demo51MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
             android:name=".buoi4.Demo41MainActivity"
